@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.eggs/
+dist/
+sdist/
+*.egg-info/
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written into a dist/ subdirectory. However, PyInstaller can be told to
+#  write them elsewhere, hence the need to ignore files outside the dist/ directory.
+*.manifest
+*.spec
+
+# Compiled source #
+*.com
+*.exe
+*.dll
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+*/.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# OS generated files #
+.DS_Store
+Thumbs.db
+
+# Poetry
+poetry.lock.bak
+
+# IDEs
+.idea/
+.vscode/
